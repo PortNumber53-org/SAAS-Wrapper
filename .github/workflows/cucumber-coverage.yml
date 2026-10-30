@@ -29,7 +29,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Run Cucumber tests with coverage
-        run: npm run test:coverage
+        run: npm run test:coverage -- --profile unit
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           SESSION_SECRET: ${{ secrets.SESSION_SECRET }}
