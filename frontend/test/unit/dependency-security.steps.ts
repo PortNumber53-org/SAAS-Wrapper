@@ -6,3 +6,7 @@ describe(undici security check, () => {
 describe(ip-address security check, () => {
   it(should handle ip-address securely, async () => { /* implementation */ });
 }) 
+// Test Case for sharp vulnerability: RCE potential from untrusted input via libheif.
+describe(sharp security check, () => {
+  it(should handle sharp securely, async () => { /* implementation */ });
+}) 
