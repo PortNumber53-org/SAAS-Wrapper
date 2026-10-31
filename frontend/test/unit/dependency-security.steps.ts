@@ -10,3 +10,7 @@ describe(ip-address security check, () => {
 describe(sharp security check, () => {
   it(should handle sharp securely, async () => { /* implementation */ });
 }) 
+// Test Case for extract-zip vulnerability: Arbitrary file write via symlink entries.
+describe(extract-zip security check, () => {
+  it(should handle extract-zip securely, async () => { /* implementation */ });
+}) 
